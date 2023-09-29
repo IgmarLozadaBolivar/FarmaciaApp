@@ -12,6 +12,7 @@ namespace Application.UnitOfWork
     {
         private readonly DbAppContext context;
         private PaisRepo _paises;
+        private DepRepo _departamentos;
 
         public UnitOfWork(DbAppContext _context)
         {
@@ -27,6 +28,18 @@ namespace Application.UnitOfWork
                     _paises = new PaisRepo(context);
                 }
                 return _paises;
+            }
+        }
+
+        public IDep Departamentos
+        {
+            get
+            {
+                if (_departamentos == null)
+                {
+                    _departamentos = new DepRepo(context);
+                }
+                return _departamentos;
             }
         }
 
