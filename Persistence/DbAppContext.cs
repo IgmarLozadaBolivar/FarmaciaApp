@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence
@@ -12,9 +13,12 @@ namespace Persistence
         public DbAppContext(DbContextOptions<DbAppContext> options) : base(options)
         { }
 
-        // public DbSet<>  { get; set; }
-        // public DbSet<>  { get; set; }
-        // public DbSet<>  { get; set; }
+        public DbSet<Pais> Paises { get; set; }
+        public DbSet<Departamento> Departamentos { get; set; }
+        public DbSet<Ciudad> Ciudades { get; set; }
+        public DbSet<Persona> Personas { get; set; }
+        public DbSet<Genero> Generos { get; set; }
+        public DbSet<TipoPersona> TipoPersonas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
