@@ -1,0 +1,15 @@
+C:\Users\losad\FarmaciaApp\Persistence\bin\Debug\net7.0\Persistence.deps.json
+C:\Users\losad\FarmaciaApp\Persistence\bin\Debug\net7.0\Persistence.dll
+C:\Users\losad\FarmaciaApp\Persistence\bin\Debug\net7.0\Persistence.pdb
+C:\Users\losad\FarmaciaApp\Persistence\bin\Debug\net7.0\Domain.dll
+C:\Users\losad\FarmaciaApp\Persistence\bin\Debug\net7.0\Domain.pdb
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.dll
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\Persistence.pdb
+C:\Users\losad\FarmaciaApp\Persistence\obj\Debug\net7.0\ref\Persistence.dll
