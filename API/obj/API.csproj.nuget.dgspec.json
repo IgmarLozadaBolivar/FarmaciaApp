@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\losad\\FarmaciaApp\\API\\API.csproj": {}
+    "c:\\Users\\losad\\FarmaciaApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\losad\\FarmaciaApp\\API\\API.csproj": {
+    "c:\\Users\\losad\\FarmaciaApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\losad\\FarmaciaApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\losad\\FarmaciaApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\losad\\FarmaciaApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\losad\\FarmaciaApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\losad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\losad\\FarmaciaApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\losad\\FarmaciaApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\losad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj"
+              "c:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj": {
+    "c:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\losad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\losad\\FarmaciaApp\\Application\\obj\\",
+        "outputPath": "c:\\Users\\losad\\FarmaciaApp\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\losad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,11 +126,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj"
+              "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj"
+              "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
+    "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\losad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\losad\\FarmaciaApp\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\losad\\FarmaciaApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\losad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\losad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\obj\\",
+        "outputPath": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\losad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -257,8 +257,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj"
+              "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj"
               }
             }
           }
