@@ -9,6 +9,10 @@ namespace Domain.Interfaces
     {
         IPais Paises { get; }
         IDep Departamentos { get; }
+        ICiu Ciudades { get; }
+        IPer Personas { get; }
+        IGen Generos { get; }
+        ITipoPer TipoPersonas { get; }
         Task<int> SaveAsync();
     }
 }
