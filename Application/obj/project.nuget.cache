@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z5kH4OqTU2RdMi4n9lZ1tr4DLk+pia254SmwWFiE2nGfKXTUr51avp+kBn1lOPkdHz+MklTjBea7leA4QPWyJA==",
+  "dgSpecHash": "m+x/1aESNqOuspBZO80s5YR7RfSYFq35sEXbZYRByj8ZQ//Eraq5tAqWUHQhKXE7eMASTkCcE7reM6FKazl71Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\losad\\FarmaciaApp\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

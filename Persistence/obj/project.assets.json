@@ -5221,11 +5221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
+      "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\losad\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\obj\\",
+      "outputPath": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\losad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5242,8 +5242,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj"
+            "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\losad\\FarmaciaApp\\Domain\\Domain.csproj"
             }
           }
         }

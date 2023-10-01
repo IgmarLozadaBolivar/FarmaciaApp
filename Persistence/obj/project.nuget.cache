@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pcu5RLzDgFiEFVBNdZSK4O4Yxex9yiC/cE2dXEY/a7Gjdt0I8fKj5qDvr8lg/RUmX6WebOBjzgyc3W4o4qhenA==",
+  "dgSpecHash": "sHRr+2Kf/D2iepemF6W1NP9BLcU/9N8IF9lPO1q4W9yhbwOzrpd//5mloeWspDejz0IeyscIvcql5rZkcmsahA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\losad\\FarmaciaApp\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\losad\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
