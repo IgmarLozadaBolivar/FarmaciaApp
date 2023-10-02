@@ -16,6 +16,19 @@ namespace API.Profiles
             CreateMap<Pais,PaisxDepDto>().ReverseMap();
 
             CreateMap<Departamento,DepDto>().ReverseMap();
+            CreateMap<Departamento,DepxCiuDto>().ReverseMap();
+
+            CreateMap<Ciudad,CiuDto>().ReverseMap();
+            CreateMap<Ciudad,CiuxPerDto>().ReverseMap();
+
+            CreateMap<Persona,PerDto>().ReverseMap();
+            CreateMap<Persona,PerxManyDto>().ReverseMap();
+
+            CreateMap<Genero,GenDto>().ReverseMap();
+            CreateMap<Genero,GenxPerDto>().ReverseMap();
+
+            CreateMap<TipoPersona,TipoPerDto>().ReverseMap();
+            CreateMap<TipoPersona,TipoPerxPerDto>().ReverseMap();
         }
     }
 }
