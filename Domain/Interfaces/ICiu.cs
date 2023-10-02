@@ -8,6 +8,6 @@ namespace Domain.Interfaces
 {
     public interface ICiu : IGenericRepo<Ciudad>
     {
-        
+        Task LoadPersonasAsync(int ciudadId);
     }
 }
