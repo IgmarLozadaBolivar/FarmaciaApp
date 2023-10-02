@@ -9,7 +9,7 @@ namespace Domain.Entities
     {
         public string Nombre { get; set; }
         public int IdDepFK { get; set; }
-        public Departamento Departamento { get; set; }
+        public Departamento Departamentos { get; set; }
         public ICollection<Persona> Personas { get; set; } 
     }
 }

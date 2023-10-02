@@ -10,7 +10,7 @@ namespace Domain.Entities
         public string Nombre { get; set; }
         public string CodISO { get; set; }
         public int IdPaisFK { get; set; }
-        public Pais Pais { get; set; }
+        public Pais Paises { get; set; }
         public ICollection<Ciudad> Ciudades { get; set; }
     }
 }

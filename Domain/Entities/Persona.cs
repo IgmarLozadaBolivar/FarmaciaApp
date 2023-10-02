@@ -11,11 +11,11 @@ namespace Domain.Entities
         public string Apellidos { get; set; }
         public int Edad { get; set; }
         public int IdCiuFK { get; set; }
-        public Ciudad Ciudad { get; set; }
+        public Ciudad Ciudades { get; set; }
         public DateOnly FechaNac { get; set; }
         public int IdGenFK { get; set; }
-        public Genero Genero { get; set; }
+        public Genero Generos { get; set; }
         public int IdTipoPerFK { get; set; }
-        public TipoPersona TipoPersona { get; set; }
+        public TipoPersona TipoPersonas { get; set; }
     }
 }
