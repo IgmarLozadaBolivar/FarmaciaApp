@@ -22,9 +22,9 @@ namespace Persistence.Data.Configuration
             builder.Property(p => p.Edad).IsRequired().HasColumnName("Edad").HasColumnType("int").HasComment("Edad de la persona").HasMaxLength(3);
             builder.Property(p => p.FechaNac).IsRequired().HasColumnName("Fecha de Nacimiento").HasColumnType("date").HasComment("Fecha de nacimiento de la persona");
 
-            builder.HasOne(p => p.Ciudad).WithMany(p => p.Personas).HasForeignKey(p => p.IdCiuFK);
-            builder.HasOne(p => p.Genero).WithMany(p => p.Personas).HasForeignKey(p => p.IdGenFK);
-            builder.HasOne(p => p.TipoPersona).WithMany(p => p.Personas).HasForeignKey(p => p.IdTipoPerFK);
+            builder.HasOne(p => p.Ciudades).WithMany(p => p.Personas).HasForeignKey(p => p.IdCiuFK);
+            builder.HasOne(p => p.Generos).WithMany(p => p.Personas).HasForeignKey(p => p.IdGenFK);
+            builder.HasOne(p => p.TipoPersonas).WithMany(p => p.Personas).HasForeignKey(p => p.IdTipoPerFK);
         }
     }
 }

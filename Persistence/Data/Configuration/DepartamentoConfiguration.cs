@@ -20,7 +20,7 @@ namespace Persistence.Data.Configuration
             builder.Property(d => d.Nombre).IsRequired().HasColumnName("Nombre").HasColumnType("varchar(50)").HasComment("Nombre del departamento").HasMaxLength(50);
             builder.Property(d => d.CodISO).IsRequired().HasColumnName("Codigo ISO").HasColumnType("varchar(3)").HasComment("Abreviatura del departamento").HasMaxLength(3);
 
-            builder.HasOne(p => p.Pais).WithMany(p => p.Departamentos).HasForeignKey(p => p.IdPaisFK);
+            builder.HasOne(p => p.Paises).WithMany(p => p.Departamentos).HasForeignKey(p => p.IdPaisFK);
         }
     }
 }

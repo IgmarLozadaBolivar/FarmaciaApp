@@ -19,7 +19,7 @@ namespace Persistence.Data.Configuration
             builder.Property(c => c.Id).IsRequired().HasMaxLength(3);
             builder.Property(c => c.Nombre).IsRequired().HasColumnName("Nombre").HasColumnType("varchar(50)").HasComment("Nombre de la ciudad").HasMaxLength(50);
 
-            builder.HasOne(p => p.Departamento).WithMany(p => p.Ciudades).HasForeignKey(p => p.IdDepFK);
+            builder.HasOne(p => p.Departamentos).WithMany(p => p.Ciudades).HasForeignKey(p => p.IdDepFK);
         }
     }
 }
