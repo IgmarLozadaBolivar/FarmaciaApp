@@ -13,6 +13,6 @@ namespace API.Dtos
         public string CodIso { get; set; }
         public string Moneda { get; set; }
         public string Idioma { get; set; }
-        public List<DepDto> departamentos { get; set; }
+        //public List<DepDto> departamentos { get; set; }
     }
 }

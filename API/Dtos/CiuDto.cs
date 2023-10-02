@@ -6,10 +6,9 @@ using Domain.Entities;
 
 namespace API.Dtos
 {
-    public class DepDto : BaseEntity
+    public class CiuDto : BaseEntity
     {
         public string Nombre { get; set; }
-        public string CodIso { get; set; }
-        public int IdPaisFK { get; set; }
+        public int IdDepFK { get; set; }
     }
 }
