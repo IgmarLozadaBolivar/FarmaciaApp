@@ -16,12 +16,12 @@ namespace API.Controllers;
 [ApiVersion("1.0")]
 [ApiVersion("1.1")]
 
-public class DepController : BaseApiController
+public class GenController : BaseApiController
 {
     private readonly IUnitOfWork unitOfWork;
     private readonly IMapper mapper;
 
-    public DepController(IUnitOfWork unitOfWork, IMapper mapper)
+    public GenController(IUnitOfWork unitOfWork, IMapper mapper)
     {
         this.unitOfWork = unitOfWork;
         this.mapper = mapper;
@@ -31,66 +31,66 @@ public class DepController : BaseApiController
     [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<IEnumerable<DepDto>>> Get()
+    public async Task<ActionResult<IEnumerable<GenDto>>> Get()
     {
-        var departamentos = await unitOfWork.Departamentos.GetAllAsync();
-        return mapper.Map<List<DepDto>>(departamentos);
+        var generos = await unitOfWork.Generos.GetAllAsync();
+        return mapper.Map<List<GenDto>>(generos);
     }
 
     [HttpGet]
     [MapToApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<Pager<DepxCiuDto>>> Get11([FromQuery] Params depParams)
+    public async Task<ActionResult<Pager<GenxPerDto>>> Get11([FromQuery] Params genParams)
     {
-        var departamentos = await unitOfWork.Departamentos.GetAllAsync(depParams.PageIndex, depParams.PageSize, depParams.Search);
-        var lstDepartamentosDto = mapper.Map<List<DepxCiuDto>>(departamentos.registros);
-        return new Pager<DepxCiuDto>(lstDepartamentosDto, departamentos.totalRegistros, depParams.PageIndex, depParams.PageSize, depParams.Search);
+        var generos = await unitOfWork.Generos.GetAllAsync(genParams.PageIndex, genParams.PageSize, genParams.Search);
+        var lstGenerosDto = mapper.Map<List<GenxPerDto>>(generos.registros);
+        return new Pager<GenxPerDto>(lstGenerosDto, generos.totalRegistros, genParams.PageIndex, genParams.PageSize, genParams.Search);
     }
 
     [HttpGet("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<DepDto>> Get(int id)
+    public async Task<ActionResult<GenDto>> Get(int id)
     {
-        var departamento = await unitOfWork.Departamentos.GetByIdAsync(id);
-        if (departamento == null)
+        var genero = await unitOfWork.Generos.GetByIdAsync(id);
+        if (genero == null)
         {
             return NotFound();
         }
-        return this.mapper.Map<DepDto>(departamento);
+        return this.mapper.Map<GenDto>(genero);
     }
 
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<Departamento>> Post(DepDto depDto)
+    public async Task<ActionResult<Genero>> Post(GenDto genDto)
     {
-        var departamentos = this.mapper.Map<Departamento>(depDto);
-        this.unitOfWork.Departamentos.Add(departamentos);
+        var generos = this.mapper.Map<Genero>(genDto);
+        this.unitOfWork.Generos.Add(generos);
         await unitOfWork.SaveAsync();
-        if (departamentos == null)
+        if (generos == null)
         {
             return BadRequest();
         }
-        depDto.Id = departamentos.Id;
-        return CreatedAtAction(nameof(Post), new { id = depDto.Id }, depDto);
+        genDto.Id = generos.Id;
+        return CreatedAtAction(nameof(Post), new { id = genDto.Id }, genDto);
     }
 
     [HttpPut("{id}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<DepDto>> Put(int id, [FromBody] DepDto depDto)
+    public async Task<ActionResult<GenDto>> Put(int id, [FromBody] GenDto genDto)
     {
-        if (depDto == null)
+        if (genDto == null)
         {
             return NotFound();
         }
-        var departamento = this.mapper.Map<Departamento>(depDto);
-        unitOfWork.Departamentos.Update(departamento);
+        var genero = this.mapper.Map<Genero>(genDto);
+        unitOfWork.Generos.Update(genero);
         await unitOfWork.SaveAsync();
-        return depDto;
+        return genDto;
     }
 
     [HttpDelete("{id}")]
@@ -98,12 +98,12 @@ public class DepController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(int id)
     {
-        var departamento = await unitOfWork.Departamentos.GetByIdAsync(id);
-        if (departamento == null)
+        var genero = await unitOfWork.Generos.GetByIdAsync(id);
+        if (genero == null)
         {
             return NotFound();
         }
-        unitOfWork.Departamentos.Remove(departamento);
+        unitOfWork.Generos.Remove(genero);
         await unitOfWork.SaveAsync();
         return NoContent();
     }
